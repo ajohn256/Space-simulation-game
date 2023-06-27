@@ -6,7 +6,7 @@ json_data = json.loads(data.read())
 
 DIMENSIONS = (json_data['width'],json_data['height'])
 
-shuttle = pygame.image.load("shuttle.png")
+shuttle = pygame.image.load("assets/images/shuttle.png")
 dx = 0
 shuttle = pygame.transform.scale(shuttle,(60,60))
 posx = DIMENSIONS[0]/2

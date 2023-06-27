@@ -16,7 +16,7 @@ for i in range(1,11):
     x = random.randrange(10,1200)
     y = random.randrange(-3000,600)
     vel = random.randrange(1,2)
-    planet_images.append(pygame.image.load(f"planet{i}.png"))
+    planet_images.append(pygame.image.load(f"assets/images/planet{i}.png"))
     planet_coordinates.append([x,y,vel])
    
 
